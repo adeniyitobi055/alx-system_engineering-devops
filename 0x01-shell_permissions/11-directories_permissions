@@ -1,2 +1,2 @@
 #!/bin/bash
-[chmod -R o+rwx] [chmod -R g+rx] [chmod -R u+rx] [chmod u+x hello]
+[[chmod -R o+rwx] [chmod -R g+rx] [chmod -R u+rx]] [chmod u+x hello]
