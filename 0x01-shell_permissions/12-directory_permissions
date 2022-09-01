@@ -1,2 +1,2 @@
 #!/bin/bash
-[chmod a+x mkdir -m my_dir] [chmod u+x hello]
+mkdir -m 755 my_dir
