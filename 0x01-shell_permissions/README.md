@@ -7,15 +7,17 @@ This directory generally contains shell permission basic commands
 4. Creates an empty file name hello
 5. Add execute permission to owner of file and write permission to group owner and other users
 6. Add execute permission to owner and group owner and write permission to other users
+
 	These numbers represent the permissions
-  7. - Read + Write + Execute
-  6. - Read + Write
-  5. - Read + Execute
-  4. - Read
-  3. - Write + Execute
-  2. - Write
-  1. - Execute
-  0. - No permission
+  A. 7 - Read + Write + Execute
+  B. 6 - Read + Write
+  C. 5 - Read + Execute
+  D. 4 - Read
+  E. 3 - write + Execute
+  G. 2 - write
+  H. 1 - Execute
+  I. 0 - No permission
+
 7. Adds execute permission to owner of the file, the group owner and the other users.
 8. Gives owner and group owner no permission at all, other users all permission
 9. Gives all permission to owner, read & execute permission to group owner, other users write and execute permission to a file
