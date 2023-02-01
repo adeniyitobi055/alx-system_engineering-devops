@@ -4,7 +4,7 @@ This project is focused on
 
 #### OSI MODEL
 - What is an OSI model
-- Hw it is organized
+- How it is organized
 
 #### LAN
 - Typical usage
