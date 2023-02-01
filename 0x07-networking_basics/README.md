@@ -23,3 +23,6 @@ This project is focused on
 #### TCP/UDP
 - 2 mainly used data transfer protocols for IP
 - Main difference between TCP and UDP
+
+
+![UDP and TCP](https://user-images.githubusercontent.com/61655996/216046251-a5fd4190-616d-4ea8-9762-f906d9429545.jpg)
