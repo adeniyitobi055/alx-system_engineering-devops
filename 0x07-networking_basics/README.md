@@ -26,3 +26,5 @@ This project is focused on
 
 
 ![UDP and TCP](https://user-images.githubusercontent.com/61655996/216046251-a5fd4190-616d-4ea8-9762-f906d9429545.jpg)
+
+We'll be using the picture above for script 3.UDP and TCP
