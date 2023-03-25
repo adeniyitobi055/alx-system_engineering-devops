@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Configure your SSH client to avoid inputing password every time you connect to your server
+
+cat ~/.ssh/school.pub | ssh ubuntu@98.98.98.98 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
