@@ -40,15 +40,11 @@ defaults
         errorfile 503 /etc/haproxy/errors/503.http
         errorfile 504 /etc/haproxy/errors/504.http
 
-frontend web-frontend-http
+frontend web-frontend
         bind *:80
 	mode http
-	http-request set-header X-Forwarded-Proto http
-        default_backend web-backend
-
-frontend web-frontend-https
 	bind *:443 ssl crt /etc/haproxy/certs/www.tobiadeniyi.tech.pem
-	http-request set-header X-Forwarded-Proto https
+	redirect scheme https if !{ ssl_fc }
 	default_backend web-backend
 
 backend web-backend
