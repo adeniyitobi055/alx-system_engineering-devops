@@ -2,6 +2,7 @@
 """
 0-subs module
 """
+
 from requests import get
 
 
@@ -20,7 +21,7 @@ def number_of_subscribers(subreddit):
     results = response.json()
 
     try:
-        return results.get('data').get('subcribers')
+        return results.get('data').get('subscribers')
 
     except Exception:
         return 0
